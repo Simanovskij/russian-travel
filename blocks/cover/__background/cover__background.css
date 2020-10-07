@@ -1,0 +1,16 @@
+.cover__background {
+  background: url('../../../images/cover-trains.jpg');
+  background-size: cover;
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  height: 100%
+}
+
+
+/* @media screen and (max-width: 1024px) {
+  .cover__background: { 
+    height: 640px;
+  }
+} */
+
