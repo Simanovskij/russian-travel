@@ -3,7 +3,7 @@
   grid-template-columns: repeat(4, minmax(min-content, 284px));
   grid-template-rows: repeat(3, minmax(min-content, 213px));
   grid-gap: 16px;
-  padding: 0 48px; 
+  padding: 0 48px;
   margin: auto;
 }
 
@@ -19,7 +19,7 @@
   .photo-grid {
     grid-template-columns: repeat(2, minmax(min-content, 352px));
     grid-template-rows: repeat(6, minmax(min-content, 264px));
-    padding: 0 24px; 
+    padding: 0 24px;
     grid-gap: 16px;
   }
 }
