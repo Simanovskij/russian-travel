@@ -5,7 +5,3 @@
 .place__text:first-of-type {
   margin-bottom: 24px;
 }
-
-.place__text:last-of-type {
-  margin: 0;
-}
