@@ -1,6 +1,8 @@
 @import url('../vendor/normalize.css');
 @import url('../fonts/fonts.css');
 
+@import url('../blocks/page/page.css');
+
 @import url('../blocks/root/root.css');
 
 @import url('../blocks/header/header.css');
@@ -17,7 +19,6 @@
 @import url('../blocks/lead/__caption/lead__caption.css');
 
 @import url('../blocks/intro/intro.css');
-@import url('../blocks/intro/__container/intro__container.css');
 @import url('../blocks/intro/__title/intro__title.css');
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__list/intro__list.css');
@@ -37,7 +38,6 @@
 @import url('../blocks/place/__link/place__link.css');
 
 @import url('../blocks/cover/cover.css');
-@import url('../blocks/cover/__image/cover__image.css');
 @import url('../blocks/cover/__overlay/cover__overlay.css');
 @import url('../blocks/cover/__text/cover__text.css');
 @import url('../blocks/cover/__title/cover__title.css');
@@ -48,7 +48,3 @@
 @import url('../blocks/footer/__item/footer__item.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
-
-* {
-  box-sizing: border-box;
-}

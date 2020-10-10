@@ -1,5 +1,5 @@
 .intro {
-  max-width: 984px;
+  width: calc(100% - 100px*2);
   margin:auto;
   display: flex;
   flex-direction: column;
@@ -7,20 +7,22 @@
   padding: 92px 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .intro {
-    padding: 92px 24px;
+    width: calc(100% - 48px*2);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .intro {
-    padding: 88px 12px;
+    width: calc(100% - 24px*2);
+    padding: 88px 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .intro {
-    padding: 64px 12px;
+    width: calc(100% - 16px*2);
+    padding: 64px 0;
   }
 }
